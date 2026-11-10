@@ -1,7 +1,8 @@
 import {useEffect,useRef} from 'react'
 import '@fontsource-variable/exo-2'
 import '@fontsource-variable/public-sans'
-import {A,Hire,seo} from './pages.jsx'
+import {A,Hire} from './pages.jsx'
+function seo(title,description){useEffect(()=>{document.title=title;document.querySelector('meta[name=description]')?.setAttribute('content',description)},[title,description])}
 import {projects} from './data.js'
 const C='https://d2ol7oe51mr4n9.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/'
 const V1080=C+'e02bb27f-80d8-445f-a03e-1b609dac4261.mp4',V720=C+'e8eb434f-d097-4b1b-b9e6-c8b46fa43040.mp4',POSTER=C+'5e018553-cb8a-420a-819f-fcdfa08e5df0.jpg'
