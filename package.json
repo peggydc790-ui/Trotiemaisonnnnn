@@ -1,4 +1,28 @@
-{"name":"sitemaison","private":true,"version":"1.0.0","type":"module",
-"scripts":{"dev":"vite","build":"vite build","preview":"vite preview"},
-"dependencies":{"@fontsource-variable/fraunces":"^5.0.0","@fontsource-variable/inter":"^5.0.0","@react-three/drei":"^9.114.0","@react-three/fiber":"^8.17.0","gsap":"^3.12.5","react":"^18.3.1","react-dom":"^18.3.1","react-router-dom":"^6.26.0","three":"^0.169.0"},
-"devDependencies":{"@vitejs/plugin-react":"^4.3.0","vite":"^5.4.0"}}
+{
+  "name": "sitemaison",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fontsource-variable/fraunces": "^5.0.0",
+    "@fontsource-variable/inter": "^5.0.0",
+    "@react-three/drei": "^9.114.0",
+    "@react-three/fiber": "^8.17.0",
+    "gsap": "^3.12.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.0",
+    "three": "^0.169.0",
+    "@fontsource-variable/exo-2": "^5.0.0",
+    "@fontsource-variable/public-sans": "^5.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.0",
+    "vite": "^5.4.0"
+  }
+}
