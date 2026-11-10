@@ -1,0 +1,1 @@
+SiteMaison static landing page source. Cloudflare Pages publishes the repository root directly; no build command is required.
