@@ -1,1 +1,0 @@
-SiteMaison source archive is stored in sitemaison.zip.b64. Cloudflare Pages decodes and builds the archive using the configured Vite build command.
