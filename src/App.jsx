@@ -2,7 +2,8 @@ import {Component,lazy,Suspense,useEffect,useRef,useState} from 'react'
 import {BrowserRouter,Routes,Route,useLocation,useNavigate} from 'react-router-dom'
 import gsap from 'gsap'
 import {S} from './data.js'
-import {Go,A,Hire,Home,About,Services,Portfolio,Projects,Project,Tech,Contact} from './pages.jsx'
+import {Go,A,Hire,About,Services,Portfolio,Projects,Project,Tech,Contact} from './pages.jsx'
+import Home from './Freight.jsx'
 const Scene=lazy(()=>import('./Scene.jsx'))
 class EB extends Component{state={e:0};static getDerivedStateFromError(){return{e:1}};render(){return this.state.e?null:this.props.children}}
 const links=[['/','Home'],['/about','About'],['/services','Services'],['/portfolio','Portfolio'],['/projects','Projects'],['/technologies','Technologies'],['/contact','Contact']]
